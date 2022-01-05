@@ -1,5 +1,2 @@
-document.querySelector('#push').onclick = function(){
+'use strict'
 
-if
-
-}
