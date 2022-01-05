@@ -4,6 +4,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: 'Spline Sans', sans-serif;
 
 }
 
@@ -69,7 +70,6 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.3) ;
 width: 70%;
 height: 45px;
 font-size: 15px;
-font-family: 'Spline Sans', sans-serif;
 font-size: 15px;
 border: 2px solid #d1d3d4;
 padding: 12px;
@@ -97,7 +97,6 @@ float: right;
 width: 20%;
 height: 45px;
 border-radius: 5px;
-font-family: 'Spline Sans', sans-serif;
 font-size: 16px;
 background-color: #8052ec;
 border: none;
@@ -114,7 +113,7 @@ color: #ffffff;
 
 }
 
-#todo_list{
+#tarefas{
 
 background-color: #ffffff;
 padding: 40px 20px;
