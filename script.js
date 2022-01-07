@@ -41,6 +41,22 @@ document.querySelector('#add').onclick = function () {
 
             }
 
+            var riscar_tarefa = document.querySelectorAll(".tarefa");
+
+            for (var i = 0; i < riscar_tarefa.length; i++) {
+
+                riscar_tarefa[i].onclick = function (){
+
+                    this.classList.toggle('completed')
+
+                }
+
+            }
+
+
+        document.querySelector("#novaTarefa input").value = "";
+
+
 
         }
 

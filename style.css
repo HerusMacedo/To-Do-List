@@ -179,3 +179,9 @@ border: none;
 
 }
 
+.completed{
+
+text-decoration: line-through;
+
+}
+
