@@ -29,11 +29,11 @@ document.querySelector('#add').onclick = function () {
         `;
 
 
-        var tarefa_a_ser_feita = document.querySelectorAll(".deletar"); {
+        var remover = document.querySelectorAll(".deletar"); {
 
-            for (var i = 0; i < tarefa_a_ser_feita.length; i++) {
+            for (var i = 0; i < remover.length; i++) {
 
-                tarefa_a_ser_feita[i].onclick = function () {
+                remover[i].onclick = function () {
 
                     this.parentNode.remove();
 
