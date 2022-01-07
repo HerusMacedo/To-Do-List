@@ -54,12 +54,12 @@ document.querySelector('#add').onclick = function () {
             }
 
 
-        document.querySelector("#novaTarefa input").value = "";
-
 
 
         }
 
+
+        document.querySelector("#novaTarefa input").value = "";
 
 
     }
