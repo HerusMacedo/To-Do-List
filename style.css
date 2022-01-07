@@ -5,6 +5,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'Spline Sans', sans-serif;
+font-size: 15px;
 
 }
 
@@ -56,6 +57,15 @@ padding: 30px;
 
 }
 
+
+input{
+
+color: #8052ec;
+
+
+}
+
+
 #novaTarefa{
  
 background-color:#ffffff;
@@ -81,10 +91,17 @@ border-radius: 5px;
 
 }
 
+input::placeholder{
+
+color: #8052ec;
+
+}
+
 #novaTarefa input:focus{
 
 outline: none;
 border-color:#8052ec ;
+color: #8052ec;
 
 }
 
@@ -127,5 +144,38 @@ position: relative;
 }
 
 
+.tarefa{
 
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 50px;
+padding: 5px 10px;
+margin-top: 10px;
+background-color: #ffffff;
+border-bottom: 2px solid #d1d3d4;
+cursor: pointer;
+
+}
+
+.tarefa span{
+
+font-family: 'Spline Sans', sans-serif;
+font-weight: 400;
+
+
+}
+
+.tarefa button{
+
+background-color: #8052ec;
+color: #ffffff;
+cursor: pointer;
+height: 100%;
+width: 40px;
+border-radius: 5px;
+border: none;
+
+
+}
 
